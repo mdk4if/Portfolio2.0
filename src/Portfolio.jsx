@@ -9,7 +9,7 @@ import Contact from "./pages/Contact";
 
 const Portfolio = () => {
   return (
-    <BrowserRouter basename="Portfolio2.0">
+    <BrowserRouter basename="/Portfolio2.0">
         <Navbar/>
         <Routes>
             <Route path="/" element={<Home/>} />
