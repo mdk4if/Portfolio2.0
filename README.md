@@ -2,8 +2,6 @@
 
 A modern, responsive personal portfolio website built with **React + Vite**.
 
-![Portfolio Preview](public/profile.jpeg)
-
 ## ✨ Features
 
 - Clean and professional design
