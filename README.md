@@ -1,16 +1,78 @@
-# React + Vite
+# Portfolio 2.0
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website built with **React + Vite**.
 
-Currently, two official plugins are available:
+![Portfolio Preview](public/profile.jpeg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- Clean and professional design
+- Fully responsive layout
+- Smooth single-page navigation using React Router
+- Hero section with introduction
+- Skills showcase
+- Projects highlight
+- Dedicated pages: Home, Projects, About, Links, Contact
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend**: React 19, React Router DOM, Vite
+- **Styling**: CSS (modular)
+- **Skills**: HTML, CSS, JavaScript, React, Tailwind CSS, Java, Spring Boot, Git & GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mdk4if/Portfolio2.0.git
+   cd Portfolio2.0
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser at `http://localhost:5173`
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+## 📁 Project Structure
+
+```
+Portfolio2.0/
+├── public/                  # Static files (images, icons)
+├── src/
+│   ├── components/Navbar/
+│   ├── pages/               # Home, Projects, About, Links, Contact
+│   ├── App.jsx
+│   ├── Portfolio.jsx
+│   └── ...
+├── index.html
+└── package.json
+```
+
+## 🎨 Customization
+
+- Edit personal info and description in `src/pages/Home.jsx`
+- Add your projects in the Projects section
+- Replace profile photo in `public/profile.jpeg`
+- Customize styles in the respective `.css` files
+
+---
+
+**Made with ❤️ by Mohammad Kaif**
