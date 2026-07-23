@@ -9,7 +9,7 @@ import Contact from "./pages/Contact";
 
 const Portfolio = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="Portfolio2.0">
         <Navbar/>
         <Routes>
             <Route path="/" element={<Home/>} />
@@ -17,8 +17,6 @@ const Portfolio = () => {
             <Route path="/about" element={<About/>} />
             <Route path="/links" element={<Links/>} />
             <Route path="/contact" element={<Contact/>} />
-
-
         </Routes>
     </BrowserRouter>
   )
